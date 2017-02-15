@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alexkorrnd.pmulab1.MainActivity"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textAppearance="@style/AppTheme.TextAppearance.Title"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:background="@android:color/holo_blue_light"
+                >
+
+                <ImageView
+                    android:id="@+id/ivAvatar1"
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:src="@drawable/smith"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.1.title"
+                    android:layout_toRightOf="@id/ivAvatar1"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="@style/AppTheme.TextAppearance.SubHeading1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.1.text"
+                    android:layout_toRightOf="@id/ivAvatar1"
+                    android:layout_below="@id/tvTitle1"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Body1"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:background="@android:color/darker_gray"
+                >
+
+                <ImageView
+                    android:id="@+id/ivAvatar2"
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:src="@drawable/pond"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.2.title"
+                    android:layout_toRightOf="@id/ivAvatar2"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="@style/AppTheme.TextAppearance.SubHeading1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.2.text"
+                    android:layout_toRightOf="@id/ivAvatar2"
+                    android:layout_below="@id/tvTitle2"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Body1"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:background="@android:color/holo_green_light"
+                >
+
+                <ImageView
+                    android:id="@+id/ivAvatar3"
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:src="@drawable/klara"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.3.title"
+                    android:layout_toRightOf="@id/ivAvatar3"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="@style/AppTheme.TextAppearance.SubHeading1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.3.text"
+                    android:layout_toRightOf="@id/ivAvatar3"
+                    android:layout_below="@id/tvTitle3"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Body1"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:background="@android:color/holo_orange_light"
+                >
+
+                <ImageView
+                    android:id="@+id/ivAvatar4"
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:src="@drawable/kapaldi"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/tvTitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.4.title"
+                    android:layout_toRightOf="@id/ivAvatar4"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="@style/AppTheme.TextAppearance.SubHeading1"
+                    />
+
+                <TextView
+                    android:id="@+id/tvText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item.4.text"
+                    android:layout_toRightOf="@id/ivAvatar4"
+                    android:layout_below="@id/tvTitle4"
+                    android:textAppearance="@style/AppTheme.TextAppearance.Body1"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddGift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_add"
+        android:layout_gravity="bottom|end"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

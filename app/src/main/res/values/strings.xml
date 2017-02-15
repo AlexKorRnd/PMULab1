@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMULab1</string>
+    <string name="title">Список диалогов</string>
+    <string name="item.1.title">Доктор</string>
+    <string name="item.1.text">Я не забуду ни строчки из этого. Ни единого дня. Клянусь.
+        Я всегда буду помнить время, когда Доктор был мной.
+    </string>
+    <string name="item.2.title">Амелия</string>
+    <string name="item.2.text">Человек в лохмотьях…\nСпокойной ночи</string>
+    <string name="item.3.title">Клара</string>
+    <string name="item.3.text">Нет, нет, пожалуйста, не меняйся.</string>
+    <string name="item.4.title">Доктор</string>
+    <string name="item.4.text">У меня новые почки! Мне не нравится их цвет.</string>
+
+</resources>
